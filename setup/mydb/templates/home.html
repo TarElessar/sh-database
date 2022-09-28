@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    {% load static %}
+    <link rel="stylesheet"  href="{%  static  'css/style.css'  %}">
+    {{ form.media }}
+</head>
+
+<body>
+
+    Character Database: <a href="http://localhost/phpmyadmin/index.php?route=/sql&server=1&db=sh_database&table=characters&pos=0">here</a>
+    <br>
+    Upload Excel: <a href="http://127.0.0.1:8000/characters/excel/">here</a>
+    
+
+</body>
+
+
+
+
+
+<script src="{% static 'static_jquery/js/jquery.js' %}"></script>
+<script src="{% static 'js/quill_extension.js' %}"></script>
